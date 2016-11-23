@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ZhiHuDiary</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_list_title">人们在虚拟生活中投入的精力是否对现实生活的人际关系有积极意义？</string>
+
+</resources>

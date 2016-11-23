@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="常规" >
+        <CheckBoxPreference
+            android:key="autoOfLineDownload"
+            android:summary="仅Wi-Fi下可用，自动下载最新内容"
+            android:title="自动离线下载" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="noPictureMode"
+            android:summary="2G/3G网络下不下载图片"
+            android:title="无图模式" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="bigTextSize"
+            android:title="大字号" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其他" >
+        <CheckBoxPreference
+            android:key="pushMessage"
+            android:title="推送消息" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="commentsShareToWeibo"
+            android:title="点评分享到微博" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:key="clearCache"
+            android:title="清除缓存" />
+        <Preference
+            android:key="checkUpdate"
+            android:summary="版本：1.0"
+            android:title="检查更新" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="反馈" >
+        <Preference
+            android:key="reply"
+            android:title="意见反馈" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

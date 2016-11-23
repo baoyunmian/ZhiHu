@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_comment_item_pic"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:scaleType="center"
+        android:src="@drawable/comment_default" />
+
+    <TextView
+        android:id="@+id/tv_comment_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/iv_comment_item_pic"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_comment_item_vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tv_comment_item_name"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/comment_vote"
+        android:drawablePadding="5dp"
+        android:text="3" />
+
+    <TextView
+        android:id="@+id/tv_comment_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_comment_item_name"
+        android:layout_below="@id/tv_comment_item_name"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/tv_comment_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_comment_item_content"
+        android:layout_below="@id/tv_comment_item_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="10dp"
+        android:textColor="#DCDCDC" />
+
+</RelativeLayout>
